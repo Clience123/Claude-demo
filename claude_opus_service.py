@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib import error, request
 
 
-HOST = os.getenv("HOST", "0.0.0.0")
+HOST = os.getenv("HOST", "127.0.0.1")
 PORT = int(os.getenv("PORT", "8000"))
 API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 MODEL = os.getenv("CLAUDE_MODEL", "claude-opus-4-1")

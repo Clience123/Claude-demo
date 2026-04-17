@@ -9,9 +9,9 @@ export ANTHROPIC_API_KEY="your_api_key"
 python claude_opus_service.py
 ```
 
-默认监听 `0.0.0.0:8000`，可通过环境变量修改：
+默认监听 `127.0.0.1:8000`，可通过环境变量修改：
 
-- `HOST`（默认 `0.0.0.0`）
+- `HOST`（默认 `127.0.0.1`）
 - `PORT`（默认 `8000`）
 - `CLAUDE_MODEL`（默认 `claude-opus-4-1`）
 
